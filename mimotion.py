@@ -179,6 +179,8 @@ def push_server(_sckey, desp=""):
 
 
 # 推送消息到 pushplus
+
+#另一种推送地  http://pushplus.hxtrip.com/send
 def push_pushplus(token, content=""):
     if token == "":
         print("[注意] 未提供token，不进行pushplus推送！")
