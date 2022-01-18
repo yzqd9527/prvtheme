@@ -1,3 +1,5 @@
+const notify = $.isNode() ? require('./sendNotify') : '';
+
 console.log(【账号1🆔】jd_luQFGQwRdPpc)
 console.log(【账号信息】😊普通会员,京享值2942)
 console.log(【今日京豆】收1645646豆)
